@@ -143,11 +143,8 @@ img {
 .contacts-icon {
   margin-right: 10px;
 }
-
-.contacts-icon:hover,
-.contacts-icon:focus {
+.contacts-icon {
   fill: currentColor;
-  stroke: var(--accent);
 }
 
 .mail {
@@ -162,7 +159,6 @@ img {
 }
 .mail:hover,
 .mail:focus {
-  stroke: var(--accent);
   color: var(--accent);
 }
 
@@ -180,7 +176,6 @@ img {
 .number:hover,
 .number:focus {
   color: var(--accent);
-  stroke: var(--accent);
 }
 
 /*--------------------HERO--------------- */
@@ -189,6 +184,8 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  margin: auto;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/herobg.jpg);
@@ -310,10 +307,6 @@ img {
   width: 70px;
   height: 70px;
 }
-.benefits-box:hover,
-.benefits-box:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 /*--------------------FEATURE----------------*/
 
 .features-list {
@@ -414,20 +407,10 @@ img {
 }
 .team-soc-item {
   align-items: center;
+  gap: 10px;
 }
 
 .team-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  background-color: var(--background-color);
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-}
-
-.team-icon-last {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -448,14 +431,6 @@ img {
 
 .team-soc-icons {
   fill: #afb1b8;
-}
-.team-icon-last:hover,
-.team-icon-last:focus {
-  background-color: var(--accent);
-}
-.team-icon-last:hover .team-soc-icons,
-.team-icon-last:focus .team-soc-icons {
-  fill: white;
 }
 /*----------------------CUSTOMERS---------------*/
 .customers-title {
