@@ -339,7 +339,7 @@ img {
   margin-bottom: 50px;
   padding: 0;
 }
-
+/*----------------------TEAM------------------*/
 .sections-team {
   background-color: var(--background);
 }
@@ -404,10 +404,10 @@ img {
   margin-top: 16px;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .team-soc-item {
   align-items: center;
-  gap: 10px;
 }
 
 .team-icon {
@@ -441,6 +441,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 0;
+  margin-bottom: 50px;
 }
 .customers-list {
   list-style: none;
